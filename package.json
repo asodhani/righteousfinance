@@ -1,0 +1,16 @@
+{
+  "name": "righteous.finance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://rfguy79.github.io/righteous.finance"
+  "dependencies": {
+    "gh-pages": "^3.1.0"
+  }
+}
