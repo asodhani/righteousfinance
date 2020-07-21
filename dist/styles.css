@@ -1,0 +1,15 @@
+.content {
+    text-align: center;
+}
+
+.logofont {
+    font-family: 'MuseoModerno', cursive;
+
+    /* 
+    Other options for logo fonts:
+    font-family: 'Keania One', cursive;
+    font-family: 'MuseoModerno', cursive;
+    font-family: 'ZCOOL QingKe HuangYou', cursive; 
+    font-family: 'Nova Square', cursive;
+    */
+}
