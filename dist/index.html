@@ -24,11 +24,20 @@
 
 <body>
 
-    <!-- <nav class="navbar navbar-expand fixed-bottom">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
         <a class="navbar-brand" href="#">
             <img src="images/Logo.png" width="30" height="30" alt="" loading="lazy">
         </a>
-    </nav> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="blog/">Blog</a>
+          </div>
+        </div>
+      </nav>
 
     <section id="rfp-announcement" class="container-fluid">
         <div class="container">
@@ -48,10 +57,10 @@
     <hr class="section-separator">
 
     <!-- Add once subscriber form plumbing is hooked up -->
-    <!-- <section id="subscribe" class="container-fluid">
+    <section id="subscribe" class="container-fluid">
         <div class="container text-center">
             <h1 class="display-5 p-3">Subscribe to our newsletter</h1>
-            <form class="pb-3">
+            <!-- <form class="pb-3">
                 <div class="form-row px-5 mx-5">
                     <div class="col-md-6">
                         <input id="firstName" type="text" class="form-control" placeholder="Your Name">
@@ -61,16 +70,19 @@
                     </div>
                 </div>
 
-                <p class="lead py-3">You'll get updates, insgihtful & actionable money tips, invites to special events, workshops, and more!</p>
+                <p class="lead py-3">You'll get updates, insightful & actionable money tips, invites to special events, workshops, and more!</p>
 
-                <button type="submit" class="butn btn-primary">Yep, I want those things</button>
-            </form>
+                <button type="submit" class="btn btn-primary">Yep, I want those things</button>
+            </form> -->
+
+            <p class="lead">You'll get updates, insightful & actionable money tips, invites to special events, workshops, and more!</p>
+
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSehxMVel-0Uz5ziN_UiaK7vWTTVGfauDChuBz_6mAAJ7N0JaA/viewform?usp=sf_link" class="btn btn-success btn-lg active mb-4" role="button">Yep, I want those things</a>
         </div>
-    </section>  -->
+    </section>
 
     <!-- The last three cards from the blog -->
     <section id="blog-latest" class="container-fluid">
-        <a href="blog/">Blog</a>
     </section>
 
     <section id="survey" class="container-fluid">
