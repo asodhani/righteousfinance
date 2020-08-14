@@ -10,14 +10,39 @@
     */
 }
 
+/* Homepage Sections */
+
+section {
+    padding: 1em;
+}
+
+#banner {
+    padding: 0;
+}
+
 #rfp-announcement {
     background-color: #E6E6E680;
+}
+
+#youtube-course {
+    background-color: lightgoldenrodyellow;
+}
+
+#workshop-invite {
+    background-color: lightgray;
+}
+
+#financial-statements {
+    background-color: palegreen;
 }
 
 #subscribe {
     background-color: rgba(150,150,255,.15);
     border: none;
 }
+
+
+/* End Homepage Sections */
 
 .devbox {
     background-color: rgba(86,61,124,.15);
