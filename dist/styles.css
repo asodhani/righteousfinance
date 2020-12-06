@@ -16,6 +16,11 @@ section {
     padding: 1em;
 }
 
+iframe {
+    margin: 0 auto;
+    display: block;
+}
+
 #banner {
     padding: 0;
 }
